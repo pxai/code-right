@@ -1,3 +1,6 @@
+# For the book pdf
+dist
+
 # Logs
 logs
 *.log
