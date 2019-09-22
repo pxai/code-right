@@ -4,7 +4,8 @@
   "description": "Code Right site and guide",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "book": "./scripts/md2pdf.sh"
   },
   "repository": {
     "type": "git",

@@ -3,6 +3,7 @@
 TEXT=
 TEMPL=./scripts/
 DIST=./dist/
+CONTENT=./content/
 TITLE="Code Right"
 
 # This wraps lines and adds line number...
@@ -15,10 +16,7 @@ pandoc --template=${TEMPL}plantilla-kdp.latex \
     -V documentclass=book\
     -S --latex-engine=xelatex  \
     -o ${DIST}code-right.pdf  \
-    prologue.md \
-    00.language.md \
-    01.testing.md \
-    02.api.md \
-    03.rubyway.md \
-    references.md \
+    ${CONTENT}prologue.md \
+    ${CONTENT}00.language.md \
+    ${CONTENT}references.md \
             --toc
