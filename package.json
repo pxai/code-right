@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
+    "md-test": "npx markdownlint content",
     "book-build": "./scripts/md2pdf.sh",
     "site": "jekyll serve --source ./site --destination ./site/_site",
     "site-build": "jekyll build --source ./site --destination ./site/_site"
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/pxai/code-right/issues"
   },
-  "homepage": "https://github.com/pxai/code-right#readme"
+  "homepage": "https://github.com/pxai/code-right#readme",
+  "devDependencies": {
+    "markdownlint": "^0.17.1",
+    "markdownlint-cli": "^0.18.0"
+  }
 }
