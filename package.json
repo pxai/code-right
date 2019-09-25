@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "book": "./scripts/md2pdf.sh"
+    "book-build": "./scripts/md2pdf.sh",
+    "site": "jekyll serve --source ./site --destination ./site/_site",
+    "site-build": "jekyll build --source ./site --destination ./site/_site"
   },
   "repository": {
     "type": "git",
