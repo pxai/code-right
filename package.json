@@ -4,6 +4,7 @@
   "description": "Code Right site and guide",
   "main": "index.js",
   "scripts": {
+    "setup": "bundle install",
     "test": "npm test",
     "md-test": "npx markdownlint content",
     "eslint": "eslint ./code/**/*",
