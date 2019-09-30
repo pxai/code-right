@@ -6,6 +6,7 @@
   "scripts": {
     "setup": "bundle install",
     "test": "npm test",
+    "site-test": "npx cypress run",
     "md-test": "npx markdownlint content",
     "eslint": "eslint ./code/**/*",
     "book-build": "./scripts/md2pdf.sh",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/pxai/code-right#readme",
   "devDependencies": {
+    "cypress": "^3.4.1",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
