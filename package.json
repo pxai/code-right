@@ -37,6 +37,7 @@
     "eslint-plugin-spellcheck": "0.0.14",
     "eslint-plugin-standard": "^4.0.1",
     "markdownlint": "^0.17.1",
-    "markdownlint-cli": "^0.18.0"
+    "markdownlint-cli": "^0.18.0",
+    "mocha": "^6.2.2"
   }
 }
