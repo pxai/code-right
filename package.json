@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "bundle install",
-    "test": "npm test",
+    "test": "npx mocha test/code/**/*.spec.js",
     "site-test": "npx cypress run",
     "md-test": "npx markdownlint content",
     "eslint": "eslint ./code/**/*",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/pxai/code-right#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "cypress": "^3.4.1",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
