@@ -19,6 +19,20 @@ module.exports = {
     "spellcheck"
   ],
   rules: {
+    "quotes": [1, "double"],
+    "new-cap": [2, {"capIsNewExceptions": [] }],
+    "object-curly-spacing": [2, "always"],
+    "no-underscore-dangle": [0],
+    "no-multi-spaces": [0],
+    "no-spaced-func": [0],
+    "no-multiple-empty-lines": [2],
+    "no-trailing-spaces": [2],
+    "no-console": 1,
+    "max-statements": [2, 22],
+    "complexity": [2, 8],
+    "indent": ["error", 4],
+    "semi": ["error", "always"],
+    "compat/compat": "error",
     "spellcheck/spell-checker": [1,
       {
           "comments": true,
