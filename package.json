@@ -39,6 +39,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "markdownlint": "^0.17.1",
     "markdownlint-cli": "^0.18.0",
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   }
 }
